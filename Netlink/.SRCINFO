@@ -1,0 +1,14 @@
+pkgbase = python-netlink
+	pkgdesc = Asynchronous netlink library for Python
+	pkgver = 0.0.9
+	pkgrel = 0
+	url = https://pypi.python.org/pypi/$pkgname
+	arch = x86_64
+	license = GPLv3
+	makedepends = python
+	depends = python
+	depends = trio
+	source = https://github.com/kinnay/netlink/archive/refs/heads/master.zip
+	sha512sums = 29c720c05601f9737614b5f273eabddd6895662900037a32f0fd26ca66129ea641c8c4bd32ae8b489102f6fb0059e84a8a8ba2efb4719e108057f7ccade18673
+
+pkgname = python-netlink
