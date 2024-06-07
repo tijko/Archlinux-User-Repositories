@@ -1,8 +1,8 @@
 pkgbase = emptty-bin
 	pkgdesc = Dead simple CLI Display Manager on TTY
-	pkgver = 0.11.0
+	pkgver = 0.12.1
 	pkgrel = 1
-	url = https://github.com/tijko/emptty-bin
+	url = https://github.com/tvrzna/emptty
 	arch = x86_64
 	license = MIT
 	makedepends = go
@@ -15,7 +15,7 @@ pkgbase = emptty-bin
 	optdepends = wayland: alternative to xorg-server
 	provides = emptty
 	backup = etc/emptty/conf
-	source = emptty-bin-0.11.0.tar.gz::https://github.com/tijko/emptty-bin/releases/download/0.11.0/emptty-bin-0.11.0.tar.gz
-	sha512sums = 9e32957a8c120cd01bdd9deb200325b5da89ac7dbfb4835e49a7c86e8e40d952d4d013af48bc50dbdb0af3bbf753061225611336994a1e134ca88915349171df
+	source = emptty-bin-0.12.1.tar.gz::https://github.com/tvrzna/emptty/releases/download/v0.12.1/emptty-bin-x86_64-0.12.1.tar.gz
+	sha512sums = c83e16482369e3dbcdc24053e1a05da8b42d597cfe9a50aed91ebb0f02eee9d12f5789903f89e90472bca23b17e2083e721fb5ae674094d01e6258de572a82dc
 
 pkgname = emptty-bin
